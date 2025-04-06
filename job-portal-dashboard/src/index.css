@@ -1,0 +1,112 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 2rem;
+}
+  
+.login-form{
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+  
+input, select, button{
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+  
+button{
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
+button:hover{
+    background-color: #0056b3;
+}
+  
+.dashboard{
+    /* max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem; */
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+  
+textarea{
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+.job-section{
+    flex: 1;
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+  
+.job-card{
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+  
+.job-card h3{
+    margin: 0;
+}
+  
+.job-card button{
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.job-card button:hover{
+    background-color: #218838;
+}
+
+.badge{
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.scroll-section{
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}  
